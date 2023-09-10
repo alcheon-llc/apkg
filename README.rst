@@ -1,10 +1,10 @@
 =======================
-AurumOS Package Manager
+aurumOS Package Manager
 =======================
 
 Introduction
 ------------
-Welcome to the AurumOS Package Manager (APKG) documentation. APKG is a powerful package manager designed specifically for AurumOS, the advanced operating system developed by ALCHEON. It simplifies the process of installing, updating, and managing software packages on your AurumOS system.
+Welcome to the aurumOS Package Manager (AURPKG) documentation. APKG is a powerful package manager designed specifically for aurumOS, the advanced operating system developed by ALCHEON. It simplifies the process of installing, updating, and managing software packages on your AurumOS system.
 
 Features
 --------
@@ -17,24 +17,24 @@ Features
 Installation
 ------------
 aurumOS:
-Use ``apkg-bootstrap``
+Use ``aurpkg-bootstrap``
 
 Unix:
-``pip3 install apkg``
+``pip3 install aurpkg``
 
 Windows:
-``pip install apkg``
+``pip install aurpkg``
 
 Usage
 -----
 Install package from PyPI:
-``apkg get-pypi package_name``
+``aurpkg get-pypi package_name``
 
 Update packages:
-``apkg update``
+``aurpkg update``
 
-Install local package (.apkg):
-``apkg bootstrap``
+Install local package (.apak):
+``aurpkg bootstrap``
 
 
 
