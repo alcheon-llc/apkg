@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "apkg"
+name = "aurpkg"
 version = "0.1.0"
 description = "aurumOS Package Manager"
 authors = ["lxchn1v1 <flat.assembly@gmail.com>"]
@@ -12,7 +12,7 @@ requests = "*"
 aurum-os-base = "*"
 
 [tool.poetry.scripts]
-apkg = "apkg.main:main"
+aurpkg = "aurpkg.main:main"
 
 [tool.poetry.dev-dependencies]
 
